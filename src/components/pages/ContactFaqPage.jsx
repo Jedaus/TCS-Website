@@ -56,8 +56,8 @@ export default function ContactFaqPage() {
             <li className="flex items-start gap-4">
               <span className="material-symbols-outlined text-tertiary mt-0.5">schedule</span>
               <div>
-                <p className="text-[11px] font-bold text-on-surface-variant uppercase tracking-[0.1em] mb-1">Business Hours</p>
-                <p className="text-[16px] font-bold text-primary">Pickup: Mon-Fri 7am–4pm</p>
+                <p className="text-[11px] font-bold text-on-surface-variant uppercase tracking-[0.1em] mb-1">Trading Hours</p>
+                <p className="text-[16px] font-bold text-primary">Trading Hours: Mon-Fri 7am–4pm</p>
               </div>
             </li>
           </ul>

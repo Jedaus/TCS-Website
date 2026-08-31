@@ -23,7 +23,7 @@ export default function Footer({ onNavigate }) {
           >
             QLD Factory: 68 Compton Rd, Woodridge QLD
           </button>
-          <span className="text-on-surface-variant">Pickup Hours: Mon-Fri 7am–4pm</span>
+          <span className="text-on-surface-variant">Trading Hours: Mon-Fri 7am–4pm</span>
         </div>
 
         <div className="flex flex-col gap-3 text-[14px] text-on-surface-variant">

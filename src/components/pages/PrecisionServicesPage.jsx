@@ -96,16 +96,10 @@ export default function PrecisionServicesPage({ onOpenQuote, onOpenApply }) {
 
       {/* Section 3: Materials & Hardware (Grid/Cards) */}
       <section className="border-t border-outline-variant pt-12 md:pt-16 pb-4">
-        <header className="mb-8 flex flex-col md:flex-row md:justify-between md:items-end gap-5">
+        <header className="mb-8 flex flex-col gap-3">
           <div>
             <h2 className="font-['Literata'] text-[24px] font-semibold text-primary mb-2">Materials &amp; Hardware</h2>
             <p className="text-[16px] leading-relaxed text-on-surface-variant">We partner with industry-leading suppliers to ensure structural integrity and aesthetic perfection.</p>
-          </div>
-          <div className="flex gap-6 opacity-60 grayscale items-center">
-            <div className="font-bold tracking-widest text-on-surface text-[13px]">POLYTEC</div>
-            <div className="font-bold tracking-widest text-on-surface text-[13px]">LAMINEX</div>
-            <div className="font-bold tracking-widest text-on-surface text-[13px]">BLUM</div>
-            <div className="font-bold tracking-widest text-on-surface text-[13px]">HETTICH</div>
           </div>
         </header>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">

@@ -145,6 +145,72 @@ export default function HomePage({ onOpenQuote, onOpenApply }) {
         </div>
       </section>
 
+      {/* Trusted Suppliers & Partners Section */}
+      <section className="w-full bg-surface-container-low border-b border-outline-variant py-16 md:py-20">
+        <div className="w-full max-w-screen-2xl mx-auto px-6 md:px-10">
+          
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="font-semibold text-[11px] text-primary uppercase tracking-[0.12em] bg-primary-container px-4 py-2 rounded-full inline-block mb-3">
+              Industry Partnerships
+            </span>
+            <h2 className="font-['Literata'] text-[26px] md:text-[34px] font-bold text-on-surface mb-3 leading-tight">
+              Proudly Supported by Leading Australian Suppliers
+            </h2>
+            <p className="text-[16px] text-on-surface-variant leading-relaxed">
+              We exclusively manufacture using premium boards, laminates, and hardware from industry-leading brands.
+            </p>
+          </div>
+
+          {/* Supplier Logos Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 items-center">
+            
+            {/* Polytec */}
+            <div className="bg-white border border-outline-variant rounded-2xl p-6 h-32 flex items-center justify-center shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300 group">
+              <img 
+                src="/logos/polytec.jpg" 
+                alt="Polytec" 
+                className="max-h-16 w-auto object-contain mix-blend-multiply opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+              />
+            </div>
+
+            {/* Laminex */}
+            <div className="bg-white border border-outline-variant rounded-2xl p-6 h-32 flex items-center justify-center shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300 group">
+              <img 
+                src="/logos/laminex.jpg" 
+                alt="Laminex" 
+                className="max-h-16 w-auto object-contain mix-blend-multiply opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+              />
+            </div>
+
+            {/* Blum */}
+            <div className="bg-white border border-outline-variant rounded-2xl p-6 h-32 flex items-center justify-center shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300 group">
+              <img 
+                src="/logos/blum.jpg" 
+                alt="Blum Hardware" 
+                className="max-h-14 w-auto object-contain mix-blend-multiply opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+              />
+            </div>
+
+            {/* Flexi Panel */}
+            <div className="bg-white border border-outline-variant rounded-2xl p-6 h-32 flex items-center justify-center shadow-sm hover:shadow-md hover:border-primary/50 transition-all duration-300 group">
+              <img 
+                src="/logos/flexi-panel.jpg" 
+                alt="Flexi Panel" 
+                className="max-h-16 w-auto object-contain mix-blend-multiply opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+              />
+            </div>
+
+          </div>
+
+          <div className="mt-8 text-center">
+            <span className="text-[13px] text-on-surface-variant/80 font-medium">
+              Have specific material requirements? We can source custom finishes from all major suppliers.
+            </span>
+          </div>
+
+        </div>
+      </section>
+
     </main>
   );
 }
