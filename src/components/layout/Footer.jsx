@@ -7,7 +7,7 @@ export default function Footer({ onNavigate }) {
         <div className="flex flex-col gap-3">
           <img 
             alt="TCS QLD Logo" 
-            className="h-10 w-auto object-contain object-left" 
+            className="h-10 w-auto object-contain object-left mix-blend-multiply" 
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6-qTatiwaQ6cfLIQ-E787KoqMWVvBjdmSnTS1Hdmcytf2UJMk9YMq14xwwPGoIFyoW4eEPhRsJgzmwx4lwJFMEAySWSUU1SYa_T7WjybYDlGqH0LwcmF87e2wmyO_dE5y04TQYFjmRtF5MePWXKrcT4z-gI4kqM5wZ3rUeTTM5sgkMoQjG_jenNlrBMd0sjy6KILX5uLvnSbck4oXWQHNzXcha9UmA1b_qbw5zWR5WwMX0-rIFINsd6xpVik4Gez6LhM"
           />
           <p className="text-[14px] leading-relaxed text-on-surface-variant mt-2">

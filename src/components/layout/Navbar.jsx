@@ -29,7 +29,7 @@ export default function Navbar({ activePage, setActivePage, onOpenLogin, onOpenQ
           >
             <img 
               alt="TCS QLD Logo" 
-              className="h-12 w-auto object-contain" 
+              className="h-12 w-auto object-contain mix-blend-multiply" 
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaompCdV-ZnrmVUl-rld5-KTTC3Imfc6w7wVhFzNt_jr-hDML2IX2db3aVi8jn7R7DuS_IGDdwNfAgKGPPduor5HGkkI_-HEv7tOoB3HKbKQL1ZfyV-HW6jwfdFB7nnRadkOwrXlgjRMbTs7Nk1t6GXWKRTgGN3fY2Tb6l4pXDMj2t0f36fFDUFe33EPB2mMCB3IS9BkOR967ibK4hgU8frzSPYrsb5iBv9Bo8qZD-FqIcCdN0bKtMzlVNqLQmgFaicQk"
             />
           </button>
